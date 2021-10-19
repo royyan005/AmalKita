@@ -1,0 +1,1095 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins';
+    text-decoration: none;
+}
+
+/*NAVBAR*/
+.logo {
+    width: 10.5vw;
+    height: 2.5vw;
+}
+
+.logo1 {
+    width: 10.5vw;
+    height: 2.5vw;
+    border-radius: 50vw;
+}
+
+.nav-item a {
+    margin-left: 0.2vw;
+    margin-right: 0.2vw;
+    color: white;
+}
+
+.nav-item a:hover {
+    color: #60fc7c;
+}
+
+.bt-black {
+    background-color: black;
+    margin-left: 0.1vw;
+    margin-right: 0.1vw;
+    padding-top: 0.01vw;
+    padding-bottom: 0.01vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    border-radius: 50vw;
+    font-size: 1.2vw;
+}
+
+/* Nav Scroll*/
+#navbar{
+    transition: all .3s ease-in-out;
+    line-height: 1;
+    font-size: 1.3vw;
+}
+
+#navbar2 {
+    background-color: #00643C;
+    line-height: 1;
+    font-size: 1.3vw;
+    height: auto;
+}
+
+#navbar2 .nav-item a {
+    margin-left: 0.2vw;
+    margin-right: 0.2vw;
+    color: white;
+}
+
+#navbar2 .nav-item a:hover {
+    color: #60fc7c;
+}
+
+#navbar2 .fa-bars {
+    color: white;
+}
+
+.scrolling-active {
+    background-color: white;
+    box-shadow: 0 3px 1rem rgba(0, 0, 0, .1);
+}
+
+.scrolling-active .nav-link{
+    color: black;
+}
+
+.scrolling-active .text-nav{
+    color: white;
+}
+
+.scrolling-active .nav-item a:hover {
+    color: #60fc7c;
+}
+
+/* Nav Scroll*/
+/*NAVBAR*/
+
+/*welcome-page*/
+.bghome {
+    height: 46vw;
+    background-image: url(/assets/bg.png);
+    background-size: cover;
+}
+
+.anakpanti {
+    margin-left: 3vw;
+    margin-top: 12vw;
+    border-radius: 50%;
+    box-shadow: 0.5vw 0.2vw #093524;
+    width: 23vw;
+    height: 23vw;
+}
+
+.text-welcome {
+    padding-top: 12vw;
+    text-align: center;
+}
+
+#welcome {
+    font-size: 2.5vw;
+}
+
+#text-amalkita {
+    font-size: 2.3vw;
+}
+
+.textgreen {
+    color: #00643c;
+}
+
+#text-quotes {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    font-size: 1.3vw;
+}
+
+.text-donasi {
+    background-color: #00643c;
+    padding-top: 0.7vw;
+    padding-bottom: 0.7vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    border-radius: 50vw;
+    color: white;
+    font-size: 1.5vw;
+}
+
+.text-donasi:hover {
+    text-decoration: none;
+    background-color: #004d2e;
+    color: white;
+}
+/*welcome-page*/
+
+/*slide-panti*/
+.bg-slide-panti {
+    background-color: #F1EFEF;
+    height: 46vw;
+}
+/*slide-panti*/
+
+/*tentang-kami*/
+.bg-tentang-kami {
+    background-color: #00643C;
+    height: 40vw;
+}
+
+.foto1 {
+    height: 27vw;
+    width: 41vw;
+    box-shadow: 4px 3px;
+    margin-top: 9vw;
+}
+
+#about1 {
+    color: white;
+    font-size: 1.5vw;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 9vw;
+}
+
+.hr {
+    height: 0.2vw;
+    border-width: 0;
+    background-color:black;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+#about2 {
+    color: white;
+    font-size: 1.2vw;
+}
+
+#about3 {
+    background-color: white;
+    border-radius: 50vw;
+    font-size: 1.2vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    color: black;
+    text-decoration: none;
+}
+
+#about3:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+/*tentang-kami*/
+
+/*Proses Pendataan Panti*/
+.bg-proses-pendataan {
+    height: auto;
+    padding-top: 6vw;
+    padding-bottom: 6vw;
+}
+
+.proses-pendataan p {
+    margin: 0;
+}
+
+#pp1 {
+    margin-top: 5vw;
+    text-align: center;
+    font-size: 2vw;
+}
+
+#pp2 {
+    text-align: center;
+    font-size: 1.3vw;
+    margin-bottom: 3vw;
+}
+
+#pp3 {
+    text-align: center;
+    font-size: 1.3vw;
+    margin-bottom: 2vw;
+}
+
+.img-icon {
+    width: 7vw;
+    height: 7vw;
+    margin-bottom: 1vw;
+    margin-top: 0.5vw;
+}
+
+.card {
+    background-color: #F1EFEF;
+    border: none;
+    text-align: center;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    height: 25vw;
+}
+
+.card-title {
+    font-size: 1.5vw;
+}
+
+.card-text {
+    font-size: 1vw;
+}
+
+div.card-body {
+    padding-bottom: 0.5vw;
+}
+
+.card-body {
+    padding-top: 1vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
+
+.circle {
+    width: 4.5vw;
+    height: 4.5vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1vw;
+}
+
+.bt-daftar-panti {
+    margin-top: 5vw;
+    text-align: center;
+}
+
+/*Proses Pendataan Panti*/
+
+/*Footer*/
+.bg-footer {
+    background-image: url(/assets/bgdaun.jpg);
+    height: 40vw;
+    background-size: cover;
+    color: white;
+}
+
+.bg-footer .col-6 {
+    padding: 5vw;
+}
+
+.bg-footer .sosmed {
+    display: inline;
+    font-size: 3vw;
+}
+
+.bg-footer .sosmed a {
+    margin-right: 1vw;
+    color: white;
+}
+
+.bg-footer .sosmed a:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.white-logo {
+    width: 12.5vw;
+    height: 4.3vw;
+    border-radius: 50vw;
+}
+
+.text-footer1 {
+    margin-top: 3vw;
+    font-size: 1.3vw;
+}
+
+.text-footer2 {
+    margin-top: 4vw;
+    font-size: 1.7vw;
+}
+
+.text-footer3 {
+    padding-left: 1vw;
+    margin-top: 4vw;
+    font-size: 2vw;
+}
+
+.hr2 {
+    height: 0.3vw;
+    border-width: 0;
+    background-color: white;
+    width: 20%;
+    margin-left: 1vw;
+    margin-top: 0.5vw;
+    margin-bottom: 1vw;
+}
+
+#contact {
+    background-color: black;
+    border-radius: 50vw;
+    font-size: 1.2vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.7vw;
+}
+
+#contact:hover{
+    background-color: white;
+    color: black;
+}
+
+div.contact-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.copyright {
+    background-color: #043723;
+    color: white;
+    font-size: 1.2vw;
+}
+
+.copyright p {
+    margin: 0;
+    padding-top: 0.3vw;
+    padding-bottom: 0.3vw;
+}
+/*Footer*/
+
+/* Tentang Kita */
+.bgisi-tentang-kita {
+    background: white;
+    height: auto;
+    padding-top: 6vw;
+    padding-bottom: 6vw;
+    background-size: cover;
+    background-position: center;
+}
+/* Tentang Kita */
+
+/*Isi data Panti*/
+.bgisi-data-panti {
+    background: url(/assets/bgcube.jpg);
+    height: auto;
+    padding-top: 6vw;
+    padding-bottom: 2vw;
+    background-size: cover;
+    background-position: center;
+}
+
+.form-isi-data-panti {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-judul {
+    text-align: center;
+    margin-top: 5vw;
+    margin-bottom: 3vw;
+    padding: 1vw 0 1vw;
+    border-radius: 1vw;
+    background: url(/assets/bgdaun.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 1.5vw;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.label-isi-data-panti {
+    margin-top: 1.5vw;
+    margin-bottom: 0.3vw;
+    padding: 0.4vw 2vw;
+    border-radius: 0.7vw;
+    background-color: #00643C;
+    color: white;
+    font-size: 1.3vw;
+    letter-spacing: 1px;
+}
+
+.input-isi-data-panti {
+    padding: 0.4vw 2vw;
+    border-radius: 0.7vw;
+    background-color: white;
+    font-size: 1.3vw;
+    border: none;
+    color: black;
+}
+
+#input-isi-data-panti-textarea {
+    padding: 0.4vw 2vw;
+    border-radius: 0.7vw;
+    background-color: white;
+    font-size: 1.3vw;
+    border: none;
+}
+
+.bt-daftar {
+    background-color: white;
+    border-radius: 1vw;
+    font-size: 1.5vw;
+    font-weight: bold;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vw;
+    padding: 1.2vw 3vw;
+}
+
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    text-align: left;
+}
+  
+.btn {
+    border: 0.2vw solid gray;
+    color: gray;
+    background-color: white;
+    padding: 0.1vw 2vw;
+    border-radius: 0.7vw;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+  
+.upload-btn-wrapper input[type=file] {
+    font-size: 2vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 16.3vw;
+    height: 3vw;
+    opacity: 0;
+}
+/*Isi data Panti*/
+
+/* Donasi */
+.bgdonasi {
+    background: url(/assets/bgcube.jpg);
+    height: auto;
+    padding-top: 6vw;
+    padding-bottom: 10vw;
+    background-size: cover;
+    background-position: center;
+}
+
+.textdonasi {
+    color: white;
+}
+
+#JudulDonasi {
+    font-size: 3vw;
+    margin-top: 5vw;
+    text-align: center;
+}
+
+.metode-bayar {
+    background-color: #F1EFEF;
+    height: auto;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 26vw;
+}
+
+.judul-metode-bayar {
+    height: 5vw;
+    background: url(/assets/bgdaun.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 1.7vw;
+    padding-left: 2vw;
+    padding-top: 1.5vw;
+    margin-bottom: 1vw;
+}
+
+.jenis-metode-bayar {
+    background-color: #F1EFEF;
+    padding: 0.2vw 0;
+}
+
+.bt-collapsible {
+    background-color: #00643C;
+    color: white;
+    cursor: pointer;
+    padding: 1vw;
+    width: 100%;
+    border-radius: 1vw;
+    text-align: left;
+    font-size: 1.5vw;
+    border: none;
+    outline: none;
+    transition: background 0.3s;
+    margin-bottom: 0.3vw;
+}
+
+.bt-collapsible::after {
+    content: '\25be';
+    float: right;
+    transform: scale(1.5);
+}
+
+.bt-collapsible--active {
+    background-color: #01341F;
+}
+.bt-collapsible--active::after {
+    content: '\25b4';
+}
+
+.content-collapsible {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s;
+    background-color: white;
+    border-radius: 0.5vw;
+}
+
+.no-rek {
+    font-weight: bold;
+    margin: 1vw 2vw;
+}
+
+.copy-button {
+    text-align: right;
+    margin: 1vw 2vw;
+}
+
+#bt-copy {
+    border: none;
+    width: 7vw;
+    background-color: black;
+    color: white;
+    border-radius: 1vw;
+    font-size: 1.5vw;
+}
+
+#bt-copy:active {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+#rek {
+    text-align: center;
+    font-size: 2vw;
+}
+
+.rek {
+    border-bottom: solid 1px #00643C;
+}
+
+.nama-rek {
+    padding: 1vw 2vw;
+    font-size: 1.4vw;
+}
+
+.qr-code1 {
+    padding-left: auto;
+    padding-right: auto;
+    text-align: center;
+    font-size: 1.2vw;
+}
+
+.img-qr-code1 {
+    width: 20vw;
+    height: 20vw;
+}
+/* Donasi */
+
+/*Laporan Donasi*/
+.bgataslaporandonasi {
+    background-image: url(/assets/bgdaun.jpg);
+    height: auto;
+    padding-top: 10vw;
+    padding-bottom: 6vw;
+    background-size: cover;
+    color: white;
+}
+
+.logo2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 13.5vw;
+    height: 4.5vw;
+    border-radius: 50vw;
+}
+
+.bt-laporan {
+    text-align: center;
+    margin-top: 5vw;
+    margin-bottom: 2vw;
+}
+
+.bt-laporan a {
+    text-decoration: none;
+}
+
+.bt-penyaluran-donasi-active {
+    background-color: #17BB7A;
+    height: 4vw;
+    width: 29vw;
+    color: white;
+    text-align: center;
+    padding: 1.3vw 10vw;
+    font-size: 1.5vw;
+    border-radius: 1vw;
+}
+
+.bt-penyaluran-donasi-active:hover {
+    color: white;
+}
+
+.bt-penyaluran-donasi {
+    background-color: white;
+    height: 4vw;
+    width: 29vw;
+    color: black;
+    text-align: center;
+    padding: 1.3vw 10vw;
+    font-size: 1.5vw;
+    border-radius: 1vw;
+}
+
+.bt-penyaluran-donasi:hover{
+    color: white;
+    background-color: #17BB7A;
+}
+
+.bt-penerimaan-donasi {
+    background-color: white;
+    height: 4vw;
+    width: 29vw;
+    color: black;
+    text-align: center;
+    padding: 1.3vw 10vw;
+    font-size: 1.5vw;
+    border-radius: 1vw;
+}
+
+.bt-penerimaan-donasi:hover{
+    color: white;
+    background-color: #17BB7A;
+}
+
+.bt-penerimaan-donasi-active {
+    background-color: #17BB7A;
+    height: 4vw;
+    width: 29vw;
+    color: white;
+    text-align: center;
+    padding: 1.3vw 10vw;
+    font-size: 1.5vw;
+    border-radius: 1vw;
+}
+
+.bt-penerimaan-donasi-active:hover {
+    color: white;
+}
+
+.quotebwh {
+    font-size: 1.5vw;
+    display: block;
+    text-align: center;
+    margin-top: 3vw;
+}
+
+.bgdirektori {
+    background-color: #00643C;
+    height: auto;
+    padding: 1.5vw 5vw;
+}
+
+.tulisandirektori {
+    color: white;
+    font-size: 1.5vw;
+}
+
+.tulisandirektori a {
+    color: white;
+    text-decoration: none;
+}
+
+.bt-white{
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: 1.3vw;
+    border-radius: 0.5vw;
+    padding: 0.4vw 1vw;
+    border: none;
+}
+
+a.bt-white {
+    text-decoration: none;
+    color: black;
+}
+
+.bt-direktori {
+    text-align: end;
+}
+
+.rectangletable {
+    height: auto;
+    padding-bottom: 5vw;
+    padding-top: 5vw;
+    background-size: cover;
+    color: #F1EFEF;
+}
+
+.text-laporan {
+    padding: 0 4vw;
+    margin-bottom: 1vw;
+}
+
+.judul-laporan {
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    font-size: 2.5vw;
+}
+
+.line-laporan {
+    width: 36%;
+    border: 0.2vw solid #00643C;
+    background-color:#00643C;
+    margin: 1.5vw 0;
+}
+
+.desc-laporan {
+    text-align: left;
+    color: black;
+    font-size: 1.5vw;
+    line-height: 36px;
+    letter-spacing: 1px;
+}
+
+table.table-user {
+    width: 92%;
+    margin: auto;
+  }
+  table, th, td {
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 1vw;
+    color: black;
+    font-size: 1.5vw;
+    text-align: center;
+  }
+  tr:nth-child(even) {
+    background-color: #ffffff;
+    border: 1px solid black;
+  }
+  tr:nth-child(odd) {
+   background-color: #c4c4c4;
+   border: 1px solid black;
+  }
+  th {
+    background-color: #17BB7A;
+    color: black;
+  }
+  #tfoot {
+      font-weight: bold;
+      border: none;
+      background-color: transparent;
+  }
+  #total-donasi{
+      text-align: end;
+  }
+
+
+.modal-dialog {
+    margin-top: 10vw;
+    width: 100%;
+}
+
+.popupbagikan {
+    margin: 1vw;
+    text-align: center;
+    height: auto;
+}
+
+.link-bagikan {
+    text-decoration: none;
+    font-size: 2.5vw;
+    word-spacing: 2vw;
+}
+
+.link-bagikan a {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.link-bagikan a:hover {
+    color: rgba(0, 0, 0, 1);
+}
+
+.bgpopup {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+a.detail {
+    text-decoration: none;
+    color: #17BB7A;
+}
+/*Laporan Donasi*/
+
+/* Data Panti */
+.bg-data-panti {
+    background: url(/assets/bg-data-panti.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 19vw;
+    padding-top: 6vw;
+}
+
+.logo3 {
+    width: 10.5vw;
+    height: 2.3vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+}
+
+.header-data-panti {
+    text-align: center;
+    font-size: 1.4vw;
+}
+
+.bg-maps {
+    height: 30vw;
+    border-top: black solid 0.2vw;
+    border-bottom: black solid 0.2vw;
+    background-color: gray;
+}
+
+.bg-list-panti {
+    padding: 2vw 4vw;
+    background-color: #E5E5E5;
+}
+
+.filter {
+    background-color: white;
+    padding: 2vw;
+    border-radius: 0.7vw;
+    font-size: 1.2vw;
+}
+
+.hr3 {
+    height: 1px;
+    border-width: 0;
+    background-color: #00643C;
+    margin-top: 0.5vw;
+    margin-bottom: 1vw;
+}
+
+.input-filter {
+    border-radius: 0.3vw;
+    background-color: #F1EFEF;
+    border: none;
+    padding: 0.7vw;
+    margin: 0.5vw 0;
+    width: 100%;
+    font-size: 1vw;
+}
+
+.bt-cari {
+    color: white;
+    border-radius: 0.3vw;
+    width: 100%;
+    font-size: 1.2vw;
+    padding: 0.4vw 0;
+    background-color: #00643C;
+    border: thin black;
+    margin-top: 0.5vw;
+}
+
+.top-sort-panti {
+    background-color: white;
+    border-radius: 0.5vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw 2vw;
+    font-size: 1vw;
+}
+
+.bt-sort-panti {
+    background-color: #F1EFEF;
+    border-radius: 0.5vw;
+    border: none;
+    padding: 0.2vw 1vw;
+}
+
+.content-panti {
+    background-color: white;
+    margin: 1vw 0;
+    border-radius: 0.5vw;
+    max-height: 20vw;
+}
+
+.wrap-img-panti {
+    padding: 0;
+    border-radius: 0.5vw;
+    width:100%; 
+    height:50%;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;        
+}
+
+img.img-panti {
+    width:100%;  
+    object-fit:cover;
+    border-radius: 0.5vw;
+}
+
+.img-panti {
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.img-panti:hover {
+    transform: scale(1.1);
+} 
+
+.desc-data-panti {
+    padding: 1vw 2vw 0;
+}
+
+.judul-panti {
+    font-size: 1.6vw;
+}
+
+.judul-panti a {
+    text-decoration: none;
+    color: #00643C;
+}
+
+.judul-panti a:hover {
+    color: #003822;
+}
+
+.alamat-panti a {
+    font-size: 1vw;
+    color: #00643C;
+    text-decoration: none;
+}
+
+.desc-panti {
+    font-size: 1vw;
+}
+
+.lihat-selengkapnya {
+    color: #00643C;
+}
+
+.lihat-selengkapnya:hover {
+    color: #00643C;
+}
+
+.desc-pemilik-panti {
+    justify-content: space-between;
+    display: flex;
+    padding-right: 1vw;
+    font-size: 1vw;
+}
+
+#mapid { height: 100%; }
+/* Data Panti */
+
+@media only screen and (max-width: 767px) {
+    #navbar {
+      background-color: white;
+    }
+
+    .scrolling-active .nav-link{
+        color: black;
+    }
+
+    .hr1 {
+        margin: 0.5rem;
+    }
+    
+    .nav-item a {
+        color: black;
+        font-size: 2vw;
+    }
+
+    .bt-black {
+        background: none;
+        margin: 0;
+        padding: 0;
+        border-radius: 50vw;
+        font-size: 1.2vw;
+    }
+
+    .bt-daftar-panti {
+        margin-top: 2vw;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    p {
+        margin-bottom: 0rem;
+    }
+
+    .navbar {
+        padding: 0 1rem;
+    }
+
+    #welcome {
+        font-size: 2.5vw;
+
+    }
+    
+    #text-amalkita {
+        font-size: 2.3vw;
+    }
+    
+    #text-quotes {
+        padding-left: 5vw;
+        padding-right: 5vw;
+        font-size: 1.3vw;
+    }
+
+    .text-donasi {
+        background-color: #00643c;
+        padding-top: 0.7vw;
+        padding-bottom: 0.7vw;
+        padding-left: 1.5vw;
+        padding-right: 1.5vw;
+        border-radius: 50vw;
+        color: white;
+        font-size: 1.5vw;
+    }
+
+    .bt-daftar-panti {
+        margin-top: 0.01vw;
+    }
+}

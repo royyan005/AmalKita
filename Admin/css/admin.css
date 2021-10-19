@@ -1,0 +1,454 @@
+/* Login Admin */
+.login-admin {
+    margin: auto;
+}
+
+.bg-login-admin {
+    height: auto;
+    padding: 8vw 0;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0, 0.5)), url(/admin/assets/bgdaun.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.judul-login-admin {
+    text-align: center;
+    font-size: 3vw;
+    margin: auto;
+    color: white;
+    font-weight: bold;
+}
+
+.hr4 {
+    height: 0.4vw;
+    border-width: 0;
+    background-color: #00643C;
+    margin-top: 0.5vw;
+    margin-bottom: 1vw;
+    width: 25%;
+}
+
+.form-login {
+    margin: auto;
+    background-color: white;
+    width: 45%;
+    padding: 3vw 0;
+    font-size: 1.2vw;
+    justify-content: center;
+    display: flex;
+    margin-top: 3vw;
+}
+
+.form-login-admin {
+    width: 80%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-login-admin {
+    padding: 0.4vw 0.5vw;
+    background-color: white;
+    margin: 1vw 0;
+    border-color: black;
+    border-width: thin;
+}
+
+.bt-login-admin {
+    width: 25%;
+    margin: auto;
+    background-color: #00643C;
+    border: none;
+    color: white;
+    padding: 0.7vw;
+    border-radius: 0.4vw;
+    box-shadow: 0vw 0.2vw rgba(0, 0, 0, .5);
+    margin-top: 1vw;
+    outline: none;
+}
+
+.bt-login-admin:active {
+    background: #003721;
+    box-shadow: 0vw 0.2vw rgba(0, 0, 0, 0.1);
+}
+/* Login Admin */
+
+.bg-admin {
+    padding: 0;
+    background-color: #F2FCF5;
+}
+
+/* Sidenav */
+.sidenav {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    height: auto;
+    background-color: #00643c;
+}
+
+.logo-admin {
+    width: 13vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+    border-radius: 5vw;
+}
+
+.menu-sidenav {
+    font-size: 1.2vw;
+    padding-top: 3.8vw;
+    padding-bottom: 3.8vw;
+    text-align: center;
+}
+
+.sidenav a {
+    text-decoration: none;
+    color: white;
+}
+
+.bt-signout {
+    background-color: #00643c;
+    color: white;
+    width: 100%;
+    padding: 3.8vw;
+    font-size: 1.2vw;
+    border: none;
+    outline: none;
+}
+/* Sidenav */
+
+.home-content {
+    text-align: center;
+    font-size: 1.5vw;
+    margin: auto;
+}
+
+/* Direktori */
+
+.direktori-admin {
+    background-color: #00643c;
+    padding: 0.5vw 2vw;
+}
+
+.direktori-admin span {
+    font-size: 1vw;
+    color: white;
+}
+
+.direktori-admin a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Direktori */
+
+.judul-admin {
+    padding: 0;
+    margin-bottom: 1vw;
+}
+
+table.table-admin {
+    width: 100%;
+    margin: auto;
+}
+
+.table-admin {
+    padding: 0;
+}
+
+/* Data panti asuhan admin */
+.bgdata-panti-asuhan-admin {
+    height: auto;
+    padding: 2vw 0;
+    background-size: cover;
+    color: #F1EFEF;
+}
+
+.text-laporan {
+    font-size: 1.5vw;
+    font-weight: bold;
+    padding: 0;
+    color: black;
+}
+
+.hr5 {
+    height: 0.3vw;
+    border-width: 0;
+    background-color: #00643C;
+    margin: 1vw 0;
+    width: 7%;
+}
+
+.text-penjelas-laporan {
+    color: black;
+    font-size: 1.3vw;
+}
+
+.btdaftar-admin {
+    text-align: center;
+    margin-top: 2vw;
+}
+
+.btdaftar-panti-admin a {
+    border-radius: 0.3vw;
+    width: 100%;
+    font-size: 1.2vw;
+    padding: 0.7vw 1.4vw;
+    background-color: #00643C;
+    box-shadow: 0vw 0.2vw rgba(0, 0, 0, .5);
+    outline: none;
+}
+
+.btdaftar-panti-admin a:active {
+    background: #003721;
+    box-shadow: 0vw 0.2vw rgba(0, 0, 0, 0.1);
+}
+
+.btdaftar-panti-admin a {
+    text-decoration: none;
+    color: white;
+}
+/* Data panti asuhan admin */
+
+/* Pendaftaran panti admin */
+.bt-daftar-admin {
+    background-color: #00643C;
+    color: white;
+    border-radius: 1vw;
+    font-size: 1.3vw;
+    font-weight: bold;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5vw;
+    padding: 0.8vw 2vw;
+    box-shadow: 0vw 0.2vw rgba(0, 0, 0, .5);
+    outline: none;
+}
+
+.bt-daftar-admin:active {
+    background: #003721;
+    box-shadow: 0vw 0.2vw rgba(0, 0, 0, 0.1);
+}
+
+.teksnotifikasi {
+    color: #00643C;
+    font-size: 1vw;
+}
+
+.bt-center {
+    text-align: center;
+}
+/* Pendaftaran panti admin */
+
+/* Verifikasi Panti */
+
+.text-verifikasi {
+    color: black;
+    font-size: 1.5vw;
+    text-align: center;
+    margin-top: 1vw;
+}
+
+.bt-verifikasi {
+    text-align: center;
+}
+
+.bt-tolak-admin {
+    background-color: #ff0000;
+    color: white;
+    border-radius: 1vw;
+    font-size: 1.3vw;
+    font-weight: bold;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5vw;
+    padding: 0.8vw 2vw;
+    box-shadow: 0vw 0.2vw rgba(0, 0, 0, .5);
+    outline: none;
+}
+
+.bt-tolak-admin:active {
+    background: #880000;
+    box-shadow: 0vw 0.2vw rgba(0, 0, 0, 0.1);
+}
+/* Verifikasi Panti */
+
+/* CRUD */
+.CRUD {
+    text-align: end;
+    margin: 0.5vw 0;
+    font-size: 1.2vw;
+}
+
+.CRUD a {
+    text-decoration: none;
+    color: #17BB7A;
+    background-color: #D2E4D6;
+    padding: 0 1vw;
+}
+
+.bt-delete {
+    color: #17BB7A;
+    background-color: #D2E4D6;
+    padding: 0 1vw;
+    border: none;
+}
+
+.bt-CRUD {
+    background-color: #00643C;
+    color: white;
+    border-radius: 0.5vw;
+    font-size: 1vw;
+    font-weight: bold;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vw;
+    padding: 0.5vw 2vw;
+    box-shadow: 0vw 0.2vw rgba(0, 0, 0, .5);
+    outline: none;
+}
+
+.bt-CRUD:active {
+    background: #003721;
+    box-shadow: 0vw 0.2vw rgba(0, 0, 0, 0.1);
+}
+/* CRUD */
+
+/* Tambah Data Penerimaan*/
+.bgform-penerimaan-donasi {
+    background-color: #E8F3F5;
+}
+
+.form-isi-data {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    padding: 2vw 0;
+    font-size: 1.2vw;
+}
+
+select#bank {
+    margin-bottom: 1vw; 
+}
+
+select#pilihan {
+    margin-bottom: 1vw; 
+}
+
+.input-form-admin {
+    margin-bottom: 1vw;
+}
+/* Tambah Data Penerimaan*/
+
+/* Pop Up Daftar Panti */
+.popupdaftarpanti {
+    height: auto;
+    width: auto;
+    background-color: #E9E9E9;
+    border-radius: 1vw;
+    font-size: 1.5vw;
+    color: black;
+    text-align: center;
+    padding: 2vw;
+    font-weight: bold;
+}
+
+.bt-oke-popup {
+    background-color: #00643C;
+    color: white;
+    border-radius: 1vw;
+    font-size: 1.2vw;
+    font-weight: bold;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vw;
+    padding: 1vw 3vw;
+    box-shadow: 0vw 0.2vw rgba(0, 0, 0, .5);
+    outline: none;
+}
+
+.bt-oke-popup:active {
+    background: #003721;
+    box-shadow: 0vw 0.2vw rgba(0, 0, 0, 0.1);
+}
+
+.bt-tidak-popup {
+    background-color: #ff0000;
+    color: white;
+    border-radius: 1vw;
+    font-size: 1.2vw;
+    font-weight: bold;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vw;
+    padding: 1vw 3vw;
+    box-shadow: 0vw 0.2vw rgba(0, 0, 0, .5);
+    outline: none;
+}
+
+.bt-tidak-popup:active {
+    background: #800000;
+    box-shadow: 0vw 0.2vw rgba(0, 0, 0, 0.1);
+}
+/* Pop Up Daftar Panti */
+
+/* Error */
+        #image-preview-susunan,
+        #image-preview-akta {
+            display: none;
+            width: 15vw;
+        }
+
+        #image-preview-gambar,
+        #image-preview-gambar1,
+        #image-preview-gambar2,
+        #image-preview-gambar3,
+        #image-preview-gambar4,
+        #image-preview-gambar5 {
+            width: 13vw;
+        }
+
+        .nofile {
+            justify-content: center;
+            display: grid;
+        }
+
+        .error {
+            color: #FF0000;
+        }
+
+        .pemberitahuan {
+            color: #00643C;
+            font-size: 1vw;
+        }
+
+        #aktapdf,
+        #susunanpdf {
+            color: #00643C;
+            font-size: 1vw;
+        }
+/* Error */
+
+/* Update Admin */
+
+.linkgambar {
+    width: 14vw;
+    text-align: center;
+}
+
+#image-preview-akta-update, #image-preview-susunan-update {
+    width : 15vw;
+}
+
+.gatauapaan{
+    margin-left: 0.2vw;
+}
+
+/* Update Admin */
